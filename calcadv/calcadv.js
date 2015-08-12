@@ -11,7 +11,7 @@ alert("Why is your console not open?");
 
 var num1 =prompt("Type in your 1st number");
 var num2 =prompt("Type in your 2nd number");
-var op = prompt("Type in your basics operator like +, -, / , *, power or square root")
+var op = prompt("Type in your basics operator like +, -, / , *, power or sqrt for square root")
 
 if (op === "+") {
   var sum = parseFloat(num1) + parseFloat(num2);
@@ -36,6 +36,11 @@ else if (op === "*") {
 else if (op === "power") {
   var power = Math.pow(num1, num2);
   alert("The 1st no. is the base and the 2nd no. is the exponent. So the power is: " + power)
+}
+
+else if (op === "sqrt") {
+  var sqrt = Math.sqrt(num1);
+  alert("Only the 1st is used. So the square root is: " + sqrt)
 }
 
 

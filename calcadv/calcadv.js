@@ -11,7 +11,7 @@ alert("Why is your console not open?");
 
 var num1 =prompt("Type in your 1st number");
 var num2 =prompt("Type in your 2nd number");
-var op = prompt("Type in your basics operator like +, -, / or *")
+var op = prompt("Type in your basics operator like +, -, / , *, power or square root")
 
 if (op === "+") {
   var sum = parseFloat(num1) + parseFloat(num2);

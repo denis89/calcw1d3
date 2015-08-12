@@ -33,6 +33,11 @@ else if (op === "*") {
   alert("The multiplication is " + mult)
 }
 
+else if (op === "power") {
+  var power = Math.pow(num1, num2);
+  alert("The 1st no. is the base and the 2nd no. is the exponent. So the power is: " + power)
+}
+
 
 
 

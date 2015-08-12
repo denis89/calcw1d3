@@ -22,3 +22,13 @@ else if (op === "-") {
   var diff = parseFloat(num1) - parseFloat(num2);
   console.log("The difference is " + diff)
 }
+
+else if (op === "/") {
+  var quo = parseFloat(num1) / parseFloat(num2);
+  console.log("The quotient is " + quo)
+}
+
+else if (op === "*") {
+  var mult = parseFloat(num1) * parseFloat(num2);
+  console.log("The multiplication is " + mult)
+}
